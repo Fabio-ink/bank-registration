@@ -40,7 +40,12 @@ public class BankAccount {
     }
 
     public void withdraw(Double value){
+        if (balance > 0){
         this.balance -= (value + 5.0); // taxa de 5
+        } else {
+            System.out.println();
+            System.out.println("Você não tem saldo para esse tipo de operação");
+        }
     }
 
     @Override
