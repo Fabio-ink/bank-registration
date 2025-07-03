@@ -1,4 +1,4 @@
-// entities/BankAccount.java
+
 package entities;
 
 public class BankAccount {

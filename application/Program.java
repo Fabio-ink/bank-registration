@@ -12,7 +12,7 @@ public class Program {
         System.out.println("-----Bem vindo ao banco-----");
         System.out.print("Qual o número da conta: ");
         int idAccount = sc.nextInt();
-        sc.nextLine(); // Limpa quebra de linha pendente
+        sc.nextLine();
         System.out.print("Quem é o titular da conta: ");
         String accountHolder = sc.nextLine();
         System.out.print("Você irá realizar um depósito inicial? (s/n): ");
